@@ -205,6 +205,11 @@ public class SceneManager_Script : MonoBehaviour {
 			decals_Tab[5].transform.GetChild(0).transform.localScale = localScale;
 			decals_Tab[6].transform.GetChild(0).transform.localScale = localScale;
 
+			decals_Tab[3].transform.GetChild(0).GetChild(0).transform.localPosition = new Vector3(0,0,0.5f);
+			decals_Tab[4].transform.GetChild(0).GetChild(0).transform.localPosition = new Vector3(0,0,0.5f);
+			decals_Tab[5].transform.GetChild(0).GetChild(0).transform.localPosition = new Vector3(0,0,0.5f);
+			decals_Tab[6].transform.GetChild(0).GetChild(0).transform.localPosition = new Vector3(0,0,-0.5f);
+
             if (select_Script._select_GO.name == "EnseigneFront")
             {
 
